@@ -147,7 +147,7 @@ address.
 </p>
 {% elsif online == "true_private" %}
 <p id="where">
-  <strong>Where:</strong> This training will take place online.
+  <strong>Where:</strong> This training will take place online. <a href="https://docs.google.com/forms/d/e/1FAIpQLSdpCR6bGINnrK4Wx-Os_FRZyoFVxX8A_NtY09eyJBY31QnTnQ/viewform?usp=sf_link">Please register in advance</a>.
   The instructors will provide you with the information you will need to connect to this meeting.
 </p>
 {% endif %}

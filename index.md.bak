@@ -179,7 +179,7 @@ Modify the block below if there are any special requirements.
     Participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% endif %}
-  They should have the Open Refine software packages installed (listed <a href="#setup">below</a>).
+  They should have the OpenRefine software packages installed (listed <a href="#setup">below</a>).
 </p>
 
 {% comment %}
@@ -262,7 +262,7 @@ Edit the text to match who can attend the workshop. For instance:
 {% endcomment %}
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to all NIST staff.
+    This workshop is open to all NIST staff who have <a href="https://docs.google.com/forms/d/e/1FAIpQLSdpCR6bGINnrK4Wx-Os_FRZyoFVxX8A_NtY09eyJBY31QnTnQ/viewform?usp=sf_link">registered</a>.
 </p>
 
 
