@@ -32,15 +32,6 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 {% endcomment %}
 
 
-{% comment %}
-8< ============= For a workshop delete from here =============
-For a workshop please delete the following block until the next dashed-line
-{% endcomment %}
-
-
-{% comment %}
-8< ============================= until here ==================
-{% endcomment %}
 
 
 {% comment %}
@@ -188,7 +179,7 @@ Modify the block below if there are any special requirements.
     Participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% endif %}
-  They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+  They should have the Open Refine software packages installed (listed <a href="#setup">below</a>).
 </p>
 
 {% comment %}
@@ -201,12 +192,13 @@ special instructions.
   <strong>Accessibility:</strong>
 {% if online == "false" %}
   We are committed to making this workshop
-  accessible to everybody.  For workshops at a physical location, the workshop organizers have checked that:
-</p>
-<ul>
-  <li>The room is wheelchair / scooter accessible.</li>
-  <li>Accessible restrooms are available.</li>
-</ul>
+  accessible to everybody.  
+  #For workshops at a physical location, the workshop organizers have checked that:
+# </p>
+# <ul>
+  # <li>The room is wheelchair / scooter accessible.</li>
+  # <li>Accessible restrooms are available.</li>
+# </ul>
 <p>
   Materials will be provided in advance of the workshop and
   large-print handouts are available if needed by notifying the
@@ -267,12 +259,12 @@ Edit the text to match who can attend the workshop. For instance:
 - This workshop is open to the public.
 - If you are interested in attending this workshop, contact me@example.com
   for more information
-
+{% endcomment %}
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to ....
+    This workshop is open to all NIST staff.
 </p>
-{% endcomment %}
+
 
 <hr/>
 
